@@ -19,7 +19,8 @@ class MyAdapter(val context: Context, private val mList:List<ViewModal>): Recycl
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val Items = mList[position]
-        holder.NameText.text =Items.Text
+       holder.NameText.text =Items.Text
+//        holder.NameText.text =Items.Text
 
     }
 
